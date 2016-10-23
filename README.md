@@ -133,4 +133,4 @@ We could have thought that we could implement a buffer that contains all User (i
 UTF-8 encodage is used for the application server and for the database, so accented letters are not treated. First, we have tried to decode bytes array of string with the utf-8 Charset, and that worked with the local application server, but when we deploy .war on the application server, it didn't work.
  
 #### API REST
-
+We didn't implement PUT method, because we should completely update the resource, and password mustn't be transferred in API. So, PATCH method is better adapted.
