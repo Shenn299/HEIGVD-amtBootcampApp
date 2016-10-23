@@ -90,10 +90,10 @@ We can't do PUT requests for replacing all the desired resource.
 | DELETE | Accept: application/json       |
 
 #### Errors
-| Verb   | Error                          |
-|--------|--------------------------------|
-| Get    | 404 NOT FOUND, if id provided don't exist |
-| POST   | Content-Type: application/json |
+| Verb   | Error                                                            |
+|--------|------------------------------------------------------------------|
+| Get    | 404 NOT FOUND, if id provided don't exist.                       |
+| POST   | 400 BAD REQUEST, if username is empty (or contains only spaces). |
 | PATCH  | 404 NOT FOUND, if id provided don't exist |
 | DELETE | 404 NOT FOUND, if id provided don't exist |
 
