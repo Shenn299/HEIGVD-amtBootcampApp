@@ -8,7 +8,11 @@ Sébastien Henneberger
 Autodeploy a very simple Java EE app in application server WildFly
  
 ## Goal of the project
-All guests can visit the landing page and sign up to the web application.
+All guests can :
+
+1. visit the landing page
+2. sign up to the web application
+
 All users who have an account on the application can do these additional things :
 
 1. log in
