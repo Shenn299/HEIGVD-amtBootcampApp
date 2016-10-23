@@ -5,7 +5,7 @@ Fabien Franchini
 Sébastien Henneberger    
  
 ## Objecive of the project
-Autodeploy a simple Java EE app on an application server.
+Autodeploy a simple Java EE app on an application server :
 
 - Implement Model–view–controller (MVC) design pattern.
 - Understand and use managed components like EJBs or servlets, for exemple.
