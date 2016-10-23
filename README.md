@@ -149,3 +149,13 @@ UTF-8 encodage is used for the application server and for the database, so accen
  
 #### API REST
 We didn't implement PUT method, because we should completely update the resource, and password mustn't be transferred in API. So, PATCH method is better adapted.
+
+#### Filter
+We implemented a filter with locations white lists.
+
+## Possible improvements
+We can add fields to a user account. It would be preferable to have at least a firstname and a lastname.
+
+Filter doesn't properly work when a user log out from userManager.html and access once again to userManager.html via URL.
+
+Hash passwords and set a security policy.
