@@ -1,11 +1,23 @@
-# HEIGVD-AMT-PROJECT1
+# HEIGVD-AMT-Bootcamp
  
 ## Etudiants:
 Fabien Franchini  
 Sébastien Henneberger    
  
 ## Objecive of the project
-Autodeploy a very simple Java EE app in application server WildFly
+Autodeploy a simple Java EE app on an application server.
+
+Implement Model–view–controller (MVC) design pattern.
+
+Understand and use managed components like EJBs or servlets, for exemple.
+
+Configure protected pages with http sessions and filters.
+
+Use and configure a datasource on the application server.
+
+Use and configure a jdbc driver to save user account in a MySQL database.
+
+Implement an API REST to do CRUD operation on user account.
  
 ## Goal of the project
 All guests can :
