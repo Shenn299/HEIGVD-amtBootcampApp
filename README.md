@@ -99,6 +99,8 @@ We can't do PUT requests for replacing all the desired resource.
 | PATCH  | Identical as POST, but with additional 404 NOT FOUND, if id provided don't exist |
 | DELETE | 404 NOT FOUND, if id provided don't exist.                                       |
 
+Moreover, a 500 INTERNAL SERVER ERROR is returned if database isn't reachable.
+
 ## Architecture diagram
 ![](./img/diagram.png)
  
