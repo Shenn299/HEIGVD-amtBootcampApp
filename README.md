@@ -104,6 +104,9 @@ Moreover, a 500 INTERNAL SERVER ERROR is returned if database isn't reachable.
 #### Scripts Postman for testing the API
 You can import postman scripts in Postman for testing the API. Postman scripts are available in `./postman/amtBootcampApp.postman_collection.json`
 
+## Javadoc
+Javadoc is available in `.\target\site\apidocs\`
+
 ## Architecture diagram
 ![](./img/diagram.png)
  
