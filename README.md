@@ -62,10 +62,19 @@ Default machine : <http://192.168.99.100:9090/amtBootcampApp-1.0>
 ## API REST to do CRUD operations on user account
 All API access is over HTTP and not https, and accessed from the <http://{IP}:9090/amtBootcampApp/api/>. All data is sent and received as JSON.
 
+All requests don't require authentication.
+
 #### HTTP verbs
-| Verb        | Description           | Error  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
+| Verb        | Description           | Resource | Error  |
+| ------------- |:-------------:| -----:|:---------:|
+| GET        | Used for retrieving resources | $1600 |   |
+| POST       | Used for creating resources | EEEE|   |
+| UPDATE     | Used for updating resources with partial JSON data |  ffvvf  | gggg |
+| DELETE     | Used for deleting resources |  |   |  |
+
+
+For instance, an Issue resource has title and body attributes. A PATCH request may accept one or more of the attributes to update the resource. PATCH is a relatively new and uncommon HTTP verb, so resource endpoints also accept POST requests.
+PUT	Used for replacing resources or collections. 
 
 ## Architecture diagram
 ![](./img/diagram.png)
