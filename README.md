@@ -90,7 +90,7 @@ PATCH requests accept only username attribute.
 
 We can't do PUT requests for replacing all the desired resource. 
 
-If PATCH or DELETE methods are treated without error, they returned status 200 OK, POST returns 201 CREATED and GET return FOUND.
+If PATCH or DELETE methods are treated without error, they returned status 200 OK, POST returns 201 CREATED and GET returns FOUND.
 
 #### Headers
 | Verb   | Header                         |
