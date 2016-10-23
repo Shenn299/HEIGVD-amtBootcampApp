@@ -40,9 +40,12 @@ Go in the `topology` directory and execute `docker-compose up` command.
 ## Instruction about accessing the application via your browser
 **URL of the app: {IP}:9090/amtBootcampApp-1.0**
  
-If you use **Docker for Windows** (<https://docs.docker.com/docker-for-windows/>) or **Docker for Mac** (<https://docs.docker.com/docker-for-mac/>), replace {IP} per "localhost" or "127.0.0.1".
+If you use **Docker for Windows** (<https://docs.docker.com/docker-for-windows/>) or **Docker for Mac** (<https://docs.docker.com/docker-for-mac/>), replace {IP} per "localhost" :
  
-<http://localhost:9090/amtBootcampApp-1.0>   
+<http://localhost:9090/amtBootcampApp-1.0>
+
+or per "127.0.0.1" :
+
 <http://127.0.0.1:9090/amtBootcampApp-1.0>
  
 If you use **Docker toolbox**, replace {IP} per the ip of the machine that Docker is configured to use. By default, Docker is configured to use default machine with ip 192.168.99.100.
