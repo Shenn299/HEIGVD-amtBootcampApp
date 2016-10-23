@@ -59,6 +59,9 @@ You can also enter `docker-machine ls`, to list all machines.
  
 Default machine : <http://192.168.99.100:9090/amtBootcampApp-1.0>
 
+## API REST to do CRUD operations on user account
+All API access is over HTTP and not https, and accessed from the http://{IP}:9090/amtBootcampApp/api/. All data is sent and received as JSON.
+
 ## Architecture diagram
 ![](./img/diagram.png)
  
@@ -78,4 +81,5 @@ We could have thought that we could implement a buffer that contains all User (i
 #### encodage
 UTF-8 encodage is used for the application server and for the database, so accented letters are not treated. First, we have tried to decode bytes array of string with the utf-8 Charset, and that worked with the local application server, but when we deploy .war on the application server, it didn't work.
  
-#### API REST6zzzzz
+#### API REST
+
