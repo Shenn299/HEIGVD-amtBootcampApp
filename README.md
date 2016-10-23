@@ -69,7 +69,7 @@ All requests don't require authentication.
 |--------|------------|-------------------|
 | GET    | /users     | Get all users (id, username) who are saved in database.             |
 |        | /user/{id} | Get the desired user (id, username)                                 |
-| POST   | /user      | Create a new user with the username specified (password = password).|
+| POST   | /users     | Create a new user with the username specified (password = password).|
 | PATCH  | /user/{id} | Update the username of the desired user.                            |
 | DELETE | /user/{id} | Delete completely the desired user.                                 |
 
