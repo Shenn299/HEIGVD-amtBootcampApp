@@ -60,10 +60,12 @@ You can also enter `docker-machine ls`, to list all machines.
 Default machine : <http://192.168.99.100:9090/amtBootcampApp-1.0>
 
 ## Login and password for application
-Application: login, password
+Application: login, password    
 
-MySQL: root, adminpw
-Wildfly: admin, admin
+MySQL: root, adminpw     
+
+Wildfly: admin, admin    
+
 Web app: There is already one user saved in database: Shenn, shenn
 
 ## API REST to do CRUD operations on user account
