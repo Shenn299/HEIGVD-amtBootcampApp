@@ -38,7 +38,7 @@ All users who have an account on the application can do these additional things 
 Go in the `topology` directory and execute `docker-compose up` command.
  
 ## Instruction about accessing the application via your browser
-**URL of the app: {IP}:9090/amtBootcampApp-1.0**
+**URL of the app: http://{IP}:9090/amtBootcampApp-1.0**
  
 If you use **Docker for Windows** (<https://docs.docker.com/docker-for-windows/>) or **Docker for Mac** (<https://docs.docker.com/docker-for-mac/>) :
 
