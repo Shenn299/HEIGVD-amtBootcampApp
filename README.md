@@ -65,12 +65,12 @@ All API access is over HTTP and not https, and accessed from the <http://{IP}:90
 All requests don't require authentication.
 
 #### HTTP verbs
-| Verb        | Description           | Resource | Error  |
-| ------------- |:-------------:| -----:|:---------:|
-| GET        | Used for retrieving resources | $1600 |   |
-| POST       | Used for creating resources | EEEE|   |
-| UPDATE     | Used for updating resources with partial JSON data |  ffvvf  | gggg |
-| DELETE     | Used for deleting resources |  |   |  |
+| Verb        | Description   | Resource | Error  |
+| ------------|:-------------:| --------:|:------:|
+| GET    | Used to get all usernames which are saved in database | /users |   |
+| POST   | Used for creating resources | EEEE|   |
+| PATCH  | Used for updating resources with partial JSON data |  ffvvf  | gggg |
+| DELETE | Used for deleting resources |  |   |  |
 
 
 For instance, an Issue resource has title and body attributes. A PATCH request may accept one or more of the attributes to update the resource. PATCH is a relatively new and uncommon HTTP verb, so resource endpoints also accept POST requests.
