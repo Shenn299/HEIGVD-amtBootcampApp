@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import ch.heigvd.amt.amtbootcampapp.services.UsersManagerServiceLocal;
+import ch.heigvd.amt.amtbootcampapp.services.business.UsersManagerServiceLocal;
 
 /**
  * Servlet called after that the client filled out the login form and pressed

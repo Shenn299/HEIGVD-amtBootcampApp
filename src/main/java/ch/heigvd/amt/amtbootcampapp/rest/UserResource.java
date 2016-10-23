@@ -21,7 +21,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 import ch.heigvd.amt.amtbootcampapp.services.dao.UsersManagerDAOLocal;
-import ch.heigvd.amt.amtbootcampapp.services.UsersManagerServiceLocal;
+import ch.heigvd.amt.amtbootcampapp.services.business.UsersManagerServiceLocal;
 
 /**
  * Entry point for all HTTP requests which treat user resources.

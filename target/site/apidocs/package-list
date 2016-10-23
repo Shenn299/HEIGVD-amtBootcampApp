@@ -1,0 +1,7 @@
+ch.heigvd.amt.amtbootcampapp.model
+ch.heigvd.amt.amtbootcampapp.rest
+ch.heigvd.amt.amtbootcampapp.rest.dto
+ch.heigvd.amt.amtbootcampapp.services.business
+ch.heigvd.amt.amtbootcampapp.services.dao
+ch.heigvd.amt.amtbootcampapp.web
+org.netbeans.rest.application.config
