@@ -60,7 +60,7 @@ You can also enter `docker-machine ls`, to list all machines.
 Default machine : <http://192.168.99.100:9090/amtBootcampApp-1.0>
 
 ## Architecture diagram
-![](./img/architectureDiagram.png)
+![](./img/diagram.png)
  
 ## Information about implementation
  
