@@ -60,7 +60,12 @@ You can also enter `docker-machine ls`, to list all machines.
 Default machine : <http://192.168.99.100:9090/amtBootcampApp-1.0>
 
 ## API REST to do CRUD operations on user account
-All API access is over HTTP and not https, and accessed from the http://{IP}:9090/amtBootcampApp/api/. All data is sent and received as JSON.
+All API access is over HTTP and not https, and accessed from the <http://{IP}:9090/amtBootcampApp/api/>. All data is sent and received as JSON.
+
+#### HTTP verbs
+| Verb        | Description           | Error  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
 
 ## Architecture diagram
 ![](./img/diagram.png)
