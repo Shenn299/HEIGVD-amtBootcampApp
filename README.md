@@ -81,6 +81,13 @@ PATCH requests accept only username attribute.
 
 We can't do PUT requests for replacing all the desired resource. 
 
+#### Headers
+| Verb   | Header                         | 
+| Get    | Accept: application/json       |
+| POST   | Content-Type: application/json |
+| PATCH  | Content-Type: application/json |
+| DELETE | Accept: application/json       |
+
 ## Architecture diagram
 ![](./img/diagram.png)
  
