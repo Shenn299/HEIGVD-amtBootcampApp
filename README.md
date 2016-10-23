@@ -119,6 +119,8 @@ You can modify the IP global variable according your environment. There is a POR
 By default, IP value is `localhost`, and PORT value is `9090`.
 IP value must be the IP of the application server.
 
+For methods GET, PATCH and DELETE, don't forget to add the id of the user that you want to treat, at the request end.
+
 ## Javadoc
 Javadoc is available in `.\target\site\apidocs\index.html`
 
