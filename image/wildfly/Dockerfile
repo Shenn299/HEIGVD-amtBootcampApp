@@ -1,5 +1,7 @@
 FROM jboss/wildfly
 
+MAINTAINER Franchini - Henneberger
+
 COPY data/mysql-connector-java-5.1.40-bin.jar /opt/jboss/wildfly/standalone/deployments/
 
 COPY data/standalone.xml /opt/jboss/wildfly/standalone/configuration/
