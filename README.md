@@ -89,6 +89,14 @@ We can't do PUT requests for replacing all the desired resource.
 | PATCH  | Content-Type: application/json |
 | DELETE | Accept: application/json       |
 
+#### Errors
+| Verb   | Error                          |
+|--------|--------------------------------|
+| Get    | 404 NOT FOUND, if id provided don't exist |
+| POST   | Content-Type: application/json |
+| PATCH  | 404 NOT FOUND, if id provided don't exist |
+| DELETE | 404 NOT FOUND, if id provided don't exist |
+
 ## Architecture diagram
 ![](./img/diagram.png)
  
