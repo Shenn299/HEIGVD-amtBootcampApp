@@ -8,7 +8,12 @@ Sébastien Henneberger
 Autodeploy a very simple Java EE app in application server WildFly
  
 ## Goal of the project
-Display a welcome message in a nice template HTML (create landing page)
+All guests can visit the landing page and sign up to the web application.
+All users who have an account on the application can do these additional things:
+1. log in
+2. access the home page
+3. access the single page app called "userManager.html" to get a list of all users who have an account on this application
+4. log out
  
 ## Informations about Docker images
 We use the jboss/wildfly Docker image available in Docker Hub
