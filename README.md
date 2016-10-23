@@ -68,14 +68,18 @@ All requests don't require authentication.
 | Verb   | Target     | Description       |
 |--------|------------|-------------------|
 | GET    | /users     | Get all users (id, username) who are saved in database.             |
-|        | /user/{id} | Get the desired user (username)                                     |
+|        | /user/{id} | Get the desired user (id, username)                                 |
 | POST   | /user      | Create a new user with the username specified (password = password).|
 | PATCH  | /user/{id} | Update the username of the desired user.                            |
 | DELETE | /user/{id} | Delete completely the desired user.                                 |
 
+To keep confidentiality, GET methods don't return the user password.
 
-For instance, an Issue resource has title and body attributes. A PATCH request may accept one or more of the attributes to update the resource. PATCH is a relatively new and uncommon HTTP verb, so resource endpoints also accept POST requests.
-PUT	Used for replacing resources or collections. 
+POST method don't accept password attribute. A default password (password) is set to the new user.
+
+PATCH requests accept only username attribute.
+
+We can't do PUT requests for replacing all the desired resource. 
 
 ## Architecture diagram
 ![](./img/diagram.png)
