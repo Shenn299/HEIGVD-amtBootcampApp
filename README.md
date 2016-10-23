@@ -90,13 +90,13 @@ We can't do PUT requests for replacing all the desired resource.
 | DELETE | Accept: application/json       |
 
 #### Errors
-| Verb   | Error                                                                  |
-|--------|------------------------------------------------------------------------|
-| Get    | 404 NOT FOUND, if id provided don't exist.                             |
-| POST   | 400 BAD REQUEST, if username is empty (or contains only spaces).       |
-|        | 400 BAD REQUEST, if length of username is more long than 45 characters |
-|        | 409 CONFLICT, if username provided already exist in database.          |
-| PATCH  | 404 NOT FOUND, if id provided don't exist |
+| Verb   | Error                                                                            |
+|--------|----------------------------------------------------------------------------------|
+| Get    | 404 NOT FOUND, if id provided don't exist.                                       |
+| POST   | 400 BAD REQUEST, if username is empty (or contains only spaces).                 |
+|        | 400 BAD REQUEST, if length of username is more long than 45 characters           |
+|        | 409 CONFLICT, if username provided already exist in database.                    |
+| PATCH  | Identical as POST, but with additional 404 NOT FOUND, if id provided don't exist |
 | DELETE | 404 NOT FOUND, if id provided don't exist |
 
 ## Architecture diagram
