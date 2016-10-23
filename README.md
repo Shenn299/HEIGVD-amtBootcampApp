@@ -101,6 +101,9 @@ We can't do PUT requests for replacing all the desired resource.
 
 Moreover, a 500 INTERNAL SERVER ERROR is returned if database isn't reachable.
 
+#### Scripts Postman for testing the API
+You can use 
+
 ## Architecture diagram
 ![](./img/diagram.png)
  
