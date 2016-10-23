@@ -32,7 +32,7 @@ All users who have an account on the application can do these additional things 
 
 **MySQL database**: We use the standard MySQL image available in Docker Hub <https://hub.docker.com/r/_/mysql/>
 
-** PhpMyAdmin**: We use the official phpMyAdmin image avilable in Docker Hub <https://hub.docker.com/r/phpmyadmin/phpmyadmin/>
+**PhpMyAdmin**: We use the official phpMyAdmin image avilable in Docker Hub <https://hub.docker.com/r/phpmyadmin/phpmyadmin/>
 
 ## Instruction about running the application via Docker
 Go in the `topology` directory and execute `docker-compose up` command.
