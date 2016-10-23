@@ -68,10 +68,10 @@ All requests don't require authentication.
 | Verb   | Target     | Description       |
 |--------|------------|-------------------|
 | GET    | /users     | Get all users (id, username) who are saved in database.             |
-|        | /user/{id} | Get the desired user (id, username)                                 |
+|        | /users/{id}| Get the desired user (id, username)                                 |
 | POST   | /users     | Create a new user with the username specified (password = password).|
-| PATCH  | /user/{id} | Update the username of the desired user.                            |
-| DELETE | /user/{id} | Delete completely the desired user.                                 |
+| PATCH  | /users/{id}| Update the username of the desired user.                            |
+| DELETE | /users/{id}| Delete completely the desired user.                                 |
 
 To keep confidentiality, GET methods don't return the user password.
 
