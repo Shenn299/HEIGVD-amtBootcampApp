@@ -57,7 +57,7 @@ For exemple, if the previous command returned "machine1", then enter `docker-mac
  
 You can also enter `docker-machine ls`, to list all machines.
  
-Default machine : <http:\\192.168.99.100:9090/amtBootcampApp-1.0>
+Default machine : <http://192.168.99.100:9090/amtBootcampApp-1.0>
  
 ## Information about implementation
  
