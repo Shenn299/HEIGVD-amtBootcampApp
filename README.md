@@ -11,7 +11,7 @@ Autodeploy a simple Java EE app on an application server :
 - Understand and use managed components like EJBs or servlets, for exemple.
 - Configure protected pages with http sessions and filters.
 - Use and configure a datasource on the application server.
-- Use and configure a jdbc driver to save user account in a MySQL database.
+- Use and configure a MySQL jdbc driver to save user account in a MySQL database.
 - Implement an API REST to do CRUD operation on user account.
  
 ## Goal of the project
