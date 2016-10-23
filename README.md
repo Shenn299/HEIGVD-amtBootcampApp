@@ -62,7 +62,7 @@ Default machine : <http://192.168.99.100:9090/amtBootcampApp-1.0>
 ## Login and password for application
 Application: login, password    
 
-MySQL: root, adminpw     
+phpMyAdmin: root, adminpw     
 
 Wildfly: admin, admin    
 
