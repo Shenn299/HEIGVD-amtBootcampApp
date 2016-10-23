@@ -115,7 +115,7 @@ Moreover, a 500 INTERNAL SERVER ERROR is returned if database isn't reachable.
 #### Scripts Postman for testing the API
 You can import postman scripts in Postman for testing the API. Postman scripts are available in `./postman/amtBootcampApp.postman_collection.json`
 
-You must import environment which contains global variable. It is available in `./postman/amtbootcampApp-1.0.postman_environment.json`
+You must import environment which contains global variable. It is available in `./postman/amtBootcampApp-1.0.postman_environment.json`
 
 With this collection of script, you can do CRUD operations on user account.
 
