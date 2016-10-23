@@ -35,7 +35,7 @@ All users who have an account on the application can do these additional things 
 **PhpMyAdmin**: We use the official phpMyAdmin image avilable in Docker Hub <https://hub.docker.com/r/phpmyadmin/phpmyadmin/>
 
 ## Instruction about running the application via Docker
-Go in the `topology` directory and execute `docker-compose up` command.
+Go in the `topology` directory and execute `docker-compose up --build` command.
  
 ## Instruction about accessing the application via your browser
 **URL of the app: http://{IP}:9090/amtBootcampApp-1.0**
