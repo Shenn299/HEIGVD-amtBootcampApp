@@ -1,6 +1,6 @@
 # HEIGVD-AMT-Bootcamp
  
-## Etudiants:
+## Students:
 Fabien Franchini  
 Sébastien Henneberger    
  
