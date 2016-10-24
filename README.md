@@ -69,7 +69,7 @@ Wildfly: admin, admin
 Web app: There is already one user saved in database: Shenn, shenn
 
 ## API REST to do CRUD operations on user account
-All API access is over HTTP and not HTTPS, and accessed from the <http://{IP}:9090/amtBootcampApp/api/>. All data is sent and received as JSON.
+All API access is over HTTP and not HTTPS, and accessed from the <http://{IP}:9090/amtBootcampApp-1.0/api/>. All data is sent and received as JSON.
 
 All requests don't require authentication.
 
